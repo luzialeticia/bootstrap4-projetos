@@ -12,14 +12,6 @@ html {
     color: white;
 }
 
-#content {
-    text-align: center;
-    padding-top: 22.5%;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-                 0px 8px 13px rgba(0,0,0,0.1),
-                 0px 18px 23px rgba(0,0,0,0.1);
-}
-
 h1 {
     font-weight: 700;
     font-size: 4.4rem;
@@ -41,6 +33,22 @@ hr {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+.navbar-nav > li {
+    padding: 0 15px;
+    text-decoration: none;
+    color: #777;
+}
+
+.navbar-right > li > a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #777;
+}
+
+.navbar-right >li > a:hover {
+    color: #343a40;
+}
+
 .btn {
     padding: 0.69rem 1.19rem;
     margin-bottom: 0;
@@ -54,3 +62,10 @@ hr {
     background-color: #fff;
     border-color: #ccc;
 }
+
+#content {
+    text-align: center;
+    padding-top: 22.5%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
